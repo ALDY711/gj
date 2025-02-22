@@ -10,7 +10,7 @@ const USER = "user";
 const SYS = "system";
 const ASSISTANT = "assistant";
 
-$open_ai_key = getenv('OPENAI_API_KEY');
+$open_ai_key = getenv('AIzaSyCv4AztPfrWofCj5mb0J9qyIUke0uvyjnw');
 $open_ai = new OpenAi($open_ai_key);
 // Open the SQLite database
 $db = new SQLite3('db.sqlite');
